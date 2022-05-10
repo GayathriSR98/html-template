@@ -1,0 +1,169 @@
+
+body {
+	margin: 0;
+}
+
+button {
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+}
+
+.page-background {
+	background-color: #fbffdd;
+	padding-bottom: 70px;
+}
+
+.logo {
+	text-decoration: none;
+	font-size: 36px;
+	font-weight: 500;
+	padding-top:15px;
+}
+
+.navbar-wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+
+}
+
+.main-nav {
+	display: flex;
+	gap: 32px;
+}
+
+.main-nav a {
+	color: #000000;
+}
+
+.main-nav a:hover {
+	color: #006eeb;
+}
+
+.first-container {
+	display: flex;
+	justify-content: space-between;
+	padding: 70px 0;
+}
+
+.home-content {
+	width: 40%;
+}
+
+
+
+.access-btn {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 12px 32px;
+	border: none;
+}
+
+/* box */
+.feature-block-common {
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.div1{
+	background-color: pink;
+}
+.img1{
+	padding-left: 150px;
+}
+
+
+.div2{
+	background-color: #b6f557a9; 
+}
+.img2{
+	padding-left: 150px;
+}
+  
+.div3{
+	background-color: cyan;
+}
+
+.div4{
+	background-color: salmon; 
+}
+
+.button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 7px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+
+  }
+  
+  .button2 {background-color: #008CBA;} /* Blue */
+  .button1 {background-color: #4CAF50;} /* Green */
+  .button3 {background-color: #f44336;} /* Red */ 
+  .button4 {background-color: grey;} /* Grey*/ 
+  .button4 {background-color: rgb(7, 7, 7);} /* Grey*/ 
+   
+  .para1{
+    color: #006eeb;
+  }
+  .para {
+	color: #FF0000;
+  }
+  .para-container {
+	color: #1ee40d;
+  }
+  /* Testimonials */
+
+  * {
+	box-sizing: border-box;
+  }
+  
+  body {
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  /* Style the counter cards */
+  .card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 16px;
+	text-align: center;
+	background-color: #f1f1f1;
+  }
+
+  /* Testimonial */
+
+.flex-container {
+	display: flex;
+	align-items: stretch;
+	background-color: #f1f1f1;
+  }
+  
+  .flex-container > div {
+	color: black;
+	margin: 5px;
+	text-align: center;
+	line-height: 25px;
+	font-size: 15px;
+  }
+  
+
+
+
+
